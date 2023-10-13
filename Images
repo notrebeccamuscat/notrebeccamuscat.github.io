@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Experiment 2 - Images and Links</title>
+</head>
+
+<body>
+    <h1>Experiment 2 - Images and Links</h1>
+    <h2>Images</h2>
+    <a href="https://static01.nyt.com/images/2016/10/17/t-magazine/fashion/17tmag-junya-greats-slide-VP1B/17tmag-junya-greats-slide-VP1B-articleLarge.jpg?quality=75&auto=webp&disable=upscale" target="_blank">
+        <img src="https://static01.nyt.com/images/2016/10/17/t-magazine/fashion/17tmag-junya-greats-slide-VP1B/17tmag-junya-greats-slide-VP1B-articleLarge.jpg?quality=75&auto=webp&disable=upscale" alt="puppy">
+    </a>
+
+    <h2>Links</h2>
+    <p>Follow me on <a href="https://www.instagram.com/nytimes/?hl=en" target="_blank">NY Times Instagram</a></p>
+</body>
+
+</html>
