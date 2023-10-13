@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <title>Junya Watanabe Registration</title>
@@ -12,78 +12,35 @@
   <form>
     <div>
       <label for="first-name">First Name:</label>
-      <input type="text" name="first-name" id="first-name" placeholder="Your First Name" required />
-      <label for="last-name">Last Name:</label>
-      <input type="text" name="last-name" id="last-name" placeholder="Your Last Name" required />
+      <input type="text" name="first-name" id="first-name" placeholder="Your First Name" required>
     </div>
 
     <div>
-      <label for="gender">Gender:</label>
-      <input type="radio" name="gender" id="male" value="male" />
+      <label for="last-name">Last Name:</label>
+      <input type="text" name="last-name" id="last-name" placeholder="Your Last Name" required>
+    </div>
+
+    <div>
       <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" value="male" />
 
-      <input type="radio" name="gender" id="female" value="female" />
       <label for="female">Female</label>
+      <input type="radio" name="gender" id="female" value="female" />
 
-      <input type="radio" name="gender" id="other" value="other" />
       <label for="other">Other</label>
+      <input type="radio" name="gender" id="other" value="other" />
     </div>
 
     <div>
       <label for="email">Email:</label>
       <input type="email" name="email" id="email" required placeholder="Your Email Address">
+    </div>
 
+    <div>
       <label for="password">Password:</label>
       <input type="password" name="password" id="password" pattern=".{5,10}" placeholder="Choose a Password (5 to 10 characters)" required title="Password must be 5 to 10 characters">
     </div>
-
-    <div>
-      <label for="birthday">Birthday:</label>
-      <select name="birthday-month" id="birthday-month">
-        <option value="0" selected disabled>Month</option>
-        <option value="january">Jan</option>
-        <option value="february">Feb</option>
-        <option value="march">Mar</option>
-        <option value="april">Apr</option>
-        <option value="may">May</option>
-        <option value="june">Jun</option>
-        <option value="july">Jul</option>
-        <option value="august">Aug</option>
-        <option value="september">Sep</option>
-        <option value="october">Oct</option>
-        <option value="november">Nov</option>
-        <option value="december">Dec</option>
-      </select>
-
-      <select name="birthday-day" id="birthday-day">
-        <option value="0" selected disabled>Day</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-      </select>
-
-      <select name="birthday-year" id="birthday-year">
-        <option value="0" selected disabled>Year</option>
-        <option value="2015">2015</option>
-        <option value="2014">2014</option>
-        <option value="2013">2013</option>
-        <option value="2012">2012</option>
-        <option value="2011">2011</option>
-      </select>
-    </div>
-
-    <div>
-      <label for="checkbox">I agree to receive updates from Junya Watanabe</label>
-      <input type="checkbox" name="checkbox" id="checkbox" />
-    </div>
-
-    <div>
-      <input type="submit" value="Sign Up" />
-    </div>
   </form>
-
 </body>
 
 </html>
