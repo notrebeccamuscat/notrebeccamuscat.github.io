@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Radio Button, Checkbox and Dropdown</title>
+</head>
+
+<body>
+   
+    <h1>More Form HTML Elements</h1>
+    <p>What is your preferred marketing method?</p>
+    <form>
+        <label for="mail">Mail: </label>
+        <input id="mail" name="marketingPreference" type="radio" value="mail">
+
+        <label for="sms">SMS: </label>
+        <input id="sms" name="marketingPreference" type="radio" value="sms">
+
+        <br>
+
+      
+        <label for="termsAndConditions">Do you accept our T&Cs? </label>
+        <input id="termsAndConditions" type="checkbox" name="termsAndConditions" value="accepted">
+
+        <!-- <p>What is your favourite colour?</p>
+        <select name="color">
+            <option value="RED">Red</option>
+            <option value="BLUE">Blue</option>
+            <option value="GREEN">Green</option>
+        </select>
+
+        <br> <br> -->
+
+        <!-- setting a name will allow to send data with the request -->
+        <!-- <textarea name="paragraph" rows="10"></textarea>-->
+
+        <br>
+
+        <button>Submit</button>
+    </form>
+
+</body>
+
+</html>
